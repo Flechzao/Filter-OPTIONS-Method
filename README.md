@@ -18,8 +18,7 @@ PS:需要正确配置jython环境才能使用此插件。
 
 安装插件后，您可以按照以下步骤使用它：
 
-1. 在Burp Suite中，选择"proxy"-"http history"-"fifter"。
-2. Filter by MIME type -> untick the CSS checkbox
+选择 proxy -> http history -> fifter -> Filter by MIME type -> untick the CSS checkbox
 
 ## 作者
 
@@ -28,7 +27,9 @@ flechazo
 ## 参考仓库
 
 本脚本主要模仿此代码的逻辑，但是整体重构了一下。
+
 这个老哥的想法很骚气，通过将OPTIONS方法的数据包全打上MIME类型为JSON，以此通过burpsuite自带的过滤器来进行处理。
+
 仓库链接：https://github.com/capt-meelo/filter-options-method
 
 ## 许可证
